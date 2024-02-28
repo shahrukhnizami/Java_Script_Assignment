@@ -9,7 +9,7 @@ console.log("inital Value "+ (num1));
 console.log("Value of after increament "+(num3));
 console.log("Addition " + (add));
 console.log("Value of after Ddecreamnet "+ dec);
-console.log("Value of after Ddecreamnet "+(mod));
+console.log("Value of after Remainder "+(mod));
 var cost = 600
 var total = cost* 5
 console.log("Cost of one movie ticket is 600 PKR. Write a script to store");
