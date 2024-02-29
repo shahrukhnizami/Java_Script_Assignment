@@ -62,7 +62,6 @@ console.log("25.c Centigrate convert to Farhanite"+(((farhnit * 9)/5)+32)+" f");
   var rial = 28;
   console.log("one Dollar = 104.80 Then 10 Dollar = " +(dolar*10));
   console.log("one Rial = 28 Then 25 Dollar = " +(rial*25));
-
   console.log("Total Curency in PKR = " + ((dolar*10)+(rial*25)));
 
   /// Age Calculator
@@ -71,9 +70,19 @@ console.log("25.c Centigrate convert to Farhanite"+(((farhnit * 9)/5)+32)+" f");
    var dfBirth =1992;
    var cRtYer  =2024;
    var age = cRtYer-dfBirth;
-   console.log("Date Of Birth "+ dfBirth)
-   console.log("Date Of Current Year "+ cRtYer)
-   console.log("Age Calculator "+ age)
+   console.log("Date Of Birth "+ dfBirth);
+   console.log("Date Of Current Year "+ cRtYer);
+   console.log("Age Calculator "+ age);
+
+   //Radius Of circle
+
+   var radius = 20;
+   var Pie = 3.142;
+   console.log("Radius Of Circle "+ radius);
+   console.log("Value Of Pie "+ Pie);
+
+   console.log("The Circumference is " +(2*Pie*radius));
+   console.log("Area Of Circle "+ (Pie * radius * radius));
 
 
 
