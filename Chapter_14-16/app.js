@@ -2,17 +2,17 @@
 
 //var student_Name=["Amir","Arslan",true,38,]
 //document.write(`<h1> ${student_Name} </h1>`)
-// var qualification=["SSC", "HSC", "BCS","BS", "BCOM", "MS", "M. Phil.", "PhD" ];
-// document.write(`<h1> ${qualification} </h1>`)
-// document.write(`<h1> Qualification </h1>`)
-// document.write(`<h1> ${qualification[0]} </h1>`)
-// document.write(`<h1> ${qualification[1]} </h1>`)
-// document.write(`<h1> ${qualification[2]} </h1>`)
-// document.write(`<h1> ${qualification[3]} </h1>`)
-// document.write(`<h1> ${qualification[4]} </h1>`)
-// document.write(`<h1> ${qualification[5]} </h1>`)
-// document.write(`<h1> ${qualification[6]} </h1>`)
-// document.write(`<h1> ${qualification[7]} </h1>`)
+var qualification=["SSC", "HSC", "BCS","BS", "BCOM", "MS", "M. Phil.", "PhD" ];
+document.write(`<h1> ${qualification} </h1>`)
+document.write(`<h1> Qualification </h1>`)
+document.write(`<h1> ${qualification[0]} </h1>`)
+document.write(`<h1> ${qualification[1]} </h1>`)
+document.write(`<h1> ${qualification[2]} </h1>`)
+document.write(`<h1> ${qualification[3]} </h1>`)
+document.write(`<h1> ${qualification[4]} </h1>`)
+document.write(`<h1> ${qualification[5]} </h1>`)
+document.write(`<h1> ${qualification[6]} </h1>`)
+document.write(`<h1> ${qualification[7]} </h1>`)
 
 //  Question # 8 (Percentage%)
 
