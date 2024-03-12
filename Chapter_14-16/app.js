@@ -1,18 +1,19 @@
 //  Question # 7
 
-//var student_Name=["Amir","Arslan",true,38,]
-//document.write(`<h1> ${student_Name} </h1>`)
-var qualification=["SSC", "HSC", "BCS","BS", "BCOM", "MS", "M. Phil.", "PhD" ];
-document.write(`<h1> ${qualification} </h1>`)
-document.write(`<h1> Qualification </h1>`)
-document.write(`<h1> ${qualification[0]} </h1>`)
-document.write(`<h1> ${qualification[1]} </h1>`)
-document.write(`<h1> ${qualification[2]} </h1>`)
-document.write(`<h1> ${qualification[3]} </h1>`)
-document.write(`<h1> ${qualification[4]} </h1>`)
-document.write(`<h1> ${qualification[5]} </h1>`)
-document.write(`<h1> ${qualification[6]} </h1>`)
-document.write(`<h1> ${qualification[7]} </h1>`)
+// var degrees = ["SSC", "HSC", "BCS", "BS", "BCOM", "MS", "M .Phil", "PhD"];
+
+// document.write(`<div> <h1>QUALIFICATIONS </h1>
+// <ol >
+// <li>${degrees[0]}</li>
+// <li>${degrees[1]}</li>
+// <li>${degrees[2]}</li>
+// <li>${degrees[3]}</li>
+// <li>${degrees[4]}</li>
+// <li>${degrees[5]}</li>
+// <li>${degrees[6]}</li>
+// <li>${degrees[7]}</li>
+
+// </ol></div>`);
 
 //  Question # 8 (Percentage%)
 
@@ -70,5 +71,55 @@ document.write(`<h1> ${qualification[7]} </h1>`)
 // console.log(returnvale);
 
 
+//  Question # 11
+
+
+// var cities =["karachi","Lahore","Islamabad" , "Quetta" , "Pashawar"]
+// var returnValue = cities.slice(2,4)
+// document.write(`<h2> ${cities}</h2>`)
+// document.write(`<h2> ${returnValue}</h2>`)
+
+
+//  Question # 12
+
+// var arr = ['This' , 'is' ,  'my', 'cat'];
+// document.write(`<h2> ${arr}</h2>`)
+// document.write(`<h2> ${arr[0]} ${arr[1]} ${arr[2]} ${arr[3]}</h2>`)
+
+//  Question # 13(First come First out)
+
+// var device =["Keyboard","Mouse","Printer","Monitor"]
+// document.write(`<h2> ${device}</h2>`)
+// device.shift()
+// document.write(`<h2> ${device}</h2>`)
+// device.shift()
+// document.write(`<h2> ${device}</h2>`)
+// device.shift()
+// document.write(`<h2> ${device}</h2>`)
+
+
+//  Question # 14(Last come Last out)
+
+// var device =["Keyboard","Mouse","Printer","Monitor"]
+// document.write(`<h2> ${device}</h2>`)
+// device.pop()
+// document.write(`<h2> ${device}</h2>`)
+// device.pop()
+// document.write(`<h2> ${device}</h2>`)
+// device.pop()
+// document.write(`<h2> ${device}</h2>`)
+
+
+var brand=["Samsung","Nokia","LG","Motorola"]
+
+document.write(`<div class="dropdown">
+<button class="dropbtn">Dropdown</button>
+<div class="dropdown-content">
+  <a href="#">${brand[0]}</a>
+  <a href="#">${brand[1]}</a>
+  <a href="#">${brand[2]}</a>
+  <a href="#">${brand[3]}</a>
+</div>
+</div>`)
 
 
