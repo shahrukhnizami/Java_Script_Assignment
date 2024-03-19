@@ -1,11 +1,16 @@
 //     Question # 2
 
-var line_1=[0,1,2,3];
-var line_2=[1,0,1,2];
-var line_3=[2,1,0,1];
-document.write(`<h2> ${line_1[0]} ${line_1[1]} ${line_1[2]} ${line_1[3]}</h2>`);
-document.write(`<h2> ${line_2[0]} ${line_2[1]} ${line_2[2]} ${line_1[3]}</h2>`);
-document.write(`<h2> ${line_3[0]} ${line_3[1]} ${line_3[2]} ${line_3[3]}</h2>`);
+
+var matric = [[0,1,2,3],
+              [1,0,1,2],
+              [2,1,0,1]]
+
+for (var row of matric){
+     var rowString= row.join(' ');
+    document.write(`<h2>${rowString}</h2>`)
+
+}
+
 
 
 //    Question # 3
@@ -98,9 +103,39 @@ document.write(`<h2> ${line_3[0]} ${line_3[1]} ${line_3[2]} ${line_3[3]}</h2>`);
 //     document.write(`<h2> ${userInput}is not availble in bakery </h2>`)
 // }
 
-// Question # 8
+// Question # 8(Find the largest number)
 
 
    
-  
+// var arr = [3, 6, 2, 56, 32, 5, 89, 32,95];
+// var largest = arr[0];
+
+// for (var i = 0; i < arr.length; i++) {
+//   if (arr[i] > largest ) {
+//     largest = arr[i];
+//   }
+// }
+// document.write(`<h2>Array Item  ${arr}</h2>`);
+// document.write(`<h2> The largest number is  ${largest}</h2>`);
+
+// Question # 9(Find the small number)
+
+
+// var arr = [3, 6, 2, 56, 32, 5, 89, 32,95];
+// var largest = arr[0];
+
+// for (var i = 0; i < arr.length; i++) {
+//   if (arr[i] < largest ) {
+//     largest = arr[i];
+//   }
+// }
+// document.write(`<h2>Array Item  ${arr}</h2>`);
+// document.write(`<h2> The Small number is  ${largest}</h2>`);
+
+// Question # 10
+
+// for (var i=1; i<=20; i++){
+//     document.write(`<h2> ${i*5}</h2>`);
+// }
+
 
