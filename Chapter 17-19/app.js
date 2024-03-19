@@ -1,11 +1,11 @@
 //     Question # 2
 
-// var line_1=[0,1,2,3];
-// var line_2=[1,0,1,2];
-// var line_3=[2,1,0,1];
-// document.write(`<h2> ${line_1[0]} ${line_1[1]} ${line_1[2]} ${line_1[3]}</h2>`);
-// document.write(`<h2> ${line_2[0]} ${line_2[1]} ${line_2[2]} ${line_1[3]}</h2>`);
-// document.write(`<h2> ${line_3[0]} ${line_3[1]} ${line_3[2]} ${line_3[3]}</h2>`);
+var line_1=[0,1,2,3];
+var line_2=[1,0,1,2];
+var line_3=[2,1,0,1];
+document.write(`<h2> ${line_1[0]} ${line_1[1]} ${line_1[2]} ${line_1[3]}</h2>`);
+document.write(`<h2> ${line_2[0]} ${line_2[1]} ${line_2[2]} ${line_1[3]}</h2>`);
+document.write(`<h2> ${line_3[0]} ${line_3[1]} ${line_3[2]} ${line_3[3]}</h2>`);
 
 
 //    Question # 3
