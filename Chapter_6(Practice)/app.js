@@ -38,15 +38,23 @@ for (let i = 1; i <= 10; i++) {
     document.write(`${i} squared is: ${i * i}<br>`);
 }
 
-document.write(`<h1>7- Write a loop to find and print the sum of digits of a number (let's say 123).
-<br>Write a loop to print the reverse of a string (let's say "hello").</h1>`);
+// document.write(`<h1>7- Write a loop to find and print the sum of digits of a number (let's say 123).
 
 
 
-var userInput = +prompt("Enter a number to print a string 10 times: ");
-for (let i = 1; i <= userInput; i++) {
-    document.write(`${i} Hello World!<br>`);
-}
+
+document.write(`<h1>7- Write a loop to print the reverse of a string (let's say "hello").</h1>`);
+var original = "Hello World";
+var reversed = original.split('').reverse().join('');
+document.write(`<p>${reversed}</p>`);
+
+
+
+
+// var userInput = +prompt("Enter a number to print a string 10 times: ");
+// for (let i = 1; i <= userInput; i++) {
+//     document.write(`${i} Hello World!<br>`);
+// }
 
 document.write(`<h1>8- Write a loop to find and print the smallest element in an array (let's say [3, 7, 2, 9, 5]).</h1>`);
 var arr = [3, 7, 2, 9, 5];
