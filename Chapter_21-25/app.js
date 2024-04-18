@@ -80,8 +80,48 @@ document.write(`<h1>${fulname}</h1>`);
 // document.write(`<h1> ${str}</h1>`); 
 // document.write(`<h1>Type ${typeof(str)}</h1>`);
 
+//Question # 14
 
 
+// var bakery = ['cake', 'apple pie', 'cookie', 'chips', 'patties']
+// var userItem = prompt('Enter your Bakery item');
+// for (var i = 0; i < bakery.length; i++) {
+//     if (userItem.toLowerCase() == bakery[i].toLowerCase()) {
+//         document.write("It's item available " + bakery[i] + " at index of  " + bakery.indexOf(bakery[i]))
+//     }
+//     else {
+//         document.write("Its " + userItem + " item is not Available in Bakery ")
+//     }
+//     break
+// }
+
+//Question # 16
+
+// var university = 'University of Karachi'
+// var splited =  university.split("")
+// for(i=0; i < splited.length;i++)
+// {
+//     console.log(splited[i])
+// }
+
+//Question # 17
 
 
+// var userInput=prompt("Enter a name....")
+// var last= userInput.charAt(userInput.length - 1)
 
+// console.log("User Iuput "+userInput)
+// console.log("Last Character Of Input =>"+last)
+
+//Question # 18
+
+// var str = "The quick brown fox jumps over the lazy dog."
+// console.log("string => " + str)
+// str = str.toLowerCase()
+// var count = 0
+// for (var i = 0; i < str.length; i++) {
+//     if (str.slice(i, i + 3) == 'the') {
+//         count++
+//     }
+// }
+// console.log("Number of “The” are  => " + count)
