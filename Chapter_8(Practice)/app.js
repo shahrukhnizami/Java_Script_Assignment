@@ -1,14 +1,14 @@
 // Quesstion # 1
 
-// var arr = [1, 2, 3, 4, 5]
+var arr = [1, 2, 3, 4, 5]
 
-// for (var i = 0; i < arr.length; i++) {
-//   if(arr[i]%2 != 0) {
-//     arr[i] = arr[i]*2;
-//   }
-// }
+for (var i = 0; i < arr.length; i++) {
+  if(arr[i]%2 != 0) {
+    arr[i] = arr[i]*2;
+  }
+}
 
-// console.log(arr);
+console.log(arr);
 
 
 // Quesstion # 2
