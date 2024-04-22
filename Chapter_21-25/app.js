@@ -1,13 +1,13 @@
 //Question # 1
 
-var firstName = prompt("Enter a first name")
-var LastName =prompt("Enter a Last name")
+// var firstName = prompt("Enter a first name")
+// var LastName =prompt("Enter a Last name")
 
-var first = firstName[0].toUpperCase() + firstName.slice(1)
-var last = LastName[0].toUpperCase() + LastName.slice(1)
+// var first = firstName[0].toUpperCase() + firstName.slice(1)
+// var last = LastName[0].toUpperCase() + LastName.slice(1)
 
-var fulname = first  +" "+ last
-document.write(`<h1>${fulname}</h1>`);
+// var fulname = first  +" "+ last
+// document.write(`<h1>${fulname}</h1>`);
 
 //Question # 2
 
@@ -125,3 +125,33 @@ document.write(`<h1>${fulname}</h1>`);
 //     }
 // }
 // console.log("Number of “The” are  => " + count)
+
+//Q.Take Password from user 
+// If Password have min 8 length , 1 Capital letter , 1 Number then password is ok otherwise password is wrong.
+
+var capitalLetters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+var numbers = '1234567890'
+
+var password = prompt('Password')
+
+var minLength = false
+var capitalLetterHe = false
+var numberHe = false
+
+if (password.length >= 8) minLength = true
+for (var i = 0; i < password.length; i++) {
+    console.log(password[i])
+    if (capitalLetters.indexOf(password[i]) !== -1) {
+        capitalLetterHe = true
+    }
+    if (numbers.indexOf(password[i]) !== -1) {
+        numberHe = true
+    }
+}
+
+if (minLength && capitalLetterHe && numberHe) {
+    alert('Password is ok')
+} else {
+    alert('Password is not ok')
+
+}
